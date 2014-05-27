@@ -1,96 +1,6 @@
 [
     {
-        "content": [
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c0", 
-                "description": "", 
-                "title": "NKO DIGIT ZERO"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c1", 
-                "description": "", 
-                "title": "NKO DIGIT ONE"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c2", 
-                "description": "", 
-                "title": "NKO DIGIT TWO"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c3", 
-                "description": "", 
-                "title": "NKO DIGIT THREE"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c4", 
-                "description": "", 
-                "title": "NKO DIGIT FOUR"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c5", 
-                "description": "", 
-                "title": "NKO DIGIT FIVE"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c6", 
-                "description": "", 
-                "title": "NKO DIGIT SIX"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c7", 
-                "description": "", 
-                "title": "NKO DIGIT SEVEN"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c8", 
-                "description": "", 
-                "title": "NKO DIGIT EIGHT"
-            }, 
-            {
-                "cat1": "Number", 
-                "cat2": "Digit", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0x7c9", 
-                "description": "", 
-                "title": "NKO DIGIT NINE"
-            }, 
+        "content": [            
             {
                 "cat1": "Letter", 
                 "cat2": "", 
@@ -523,6 +433,96 @@
                 "description": "", 
                 "title": "NKO EXCLAMATION MARK"
             }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c0", 
+                "description": "", 
+                "title": "NKO DIGIT ZERO"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c1", 
+                "description": "", 
+                "title": "NKO DIGIT ONE"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c2", 
+                "description": "", 
+                "title": "NKO DIGIT TWO"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c3", 
+                "description": "", 
+                "title": "NKO DIGIT THREE"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c4", 
+                "description": "", 
+                "title": "NKO DIGIT FOUR"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c5", 
+                "description": "", 
+                "title": "NKO DIGIT FIVE"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c6", 
+                "description": "", 
+                "title": "NKO DIGIT SIX"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c7", 
+                "description": "", 
+                "title": "NKO DIGIT SEVEN"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c8", 
+                "description": "", 
+                "title": "NKO DIGIT EIGHT"
+            }, 
+            {
+                "cat1": "Number", 
+                "cat2": "Digit", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x7c9", 
+                "description": "", 
+                "title": "NKO DIGIT NINE"
+            },
             {
                 "cat1": "Format", 
                 "cat2": "Kashida", 

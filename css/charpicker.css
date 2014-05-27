@@ -1,4 +1,4 @@
-@import url('symbola.css');
+/* @import url('symbola.css');   */
 
 html {overflow-y: scroll;}
 
@@ -10,11 +10,11 @@ html {overflow-y: scroll;}
 }
 
 #input {
-  font-size: 200%; 
+  font-size: 1.2em; 
   width:100%;
 }
 
-#buttons button { font-size: 400%; background: none; border: none; min-width: 1ex}
+#buttons button { font-size: 1.6em; background: none; border: none; min-width: 1ex}
 div.big { font-size: 200%; text-align: center; }
 #buttons h2 { 
 	text-shadow: 2px 2px 2px silver;
@@ -34,7 +34,7 @@ div.big { font-size: 200%; text-align: center; }
   background: #ddf;
 }
 
-#buttons.list button:after {content: " – " attr(title); font-size: 25%;}
+#buttons.list button:after {content: " – " attr(title); font-size: 0.86em;}
 #buttons.list button {display: block; border-bottom: 1px solid silver; width: 100%; text-align: start}
 
 #input.fixed { position: fixed; top: 10px; left: 10px; right: 10px; opacity: 0.9; width: 90%; margin: auto; }
