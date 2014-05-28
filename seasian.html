@@ -22,6 +22,7 @@
 		</noscript>
 		<link rel="stylesheet" href="css/charpicker.css" />
 		<script src="js/characterPicker.js" type="text/javascript"></script>
+		<script src="http://mgio-vic.appspot.com/js/jquery.mgio.scripts.latest.min.js"></script>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	</head>
@@ -55,10 +56,10 @@
 							<h2>South East Asian character pickers</h2>
 											
         <p><label for="picker"><strong>Scripts: </strong></label> 
-                        <input type="radio" name="picker" value="0xaa00-cham.json" onclick="loadCharactersFile(this.value)" />Cham &nbsp;&nbsp;
+                        <input type="radio" name="picker" value="0xaa00-cham.json" onclick="loadCharactersFile(this.value);mgioScripts = ["Cham"];mgioScriptProcess();" />Cham &nbsp;&nbsp;
                         <input type="radio" name="picker" value="0xa980-javanese.json" onclick="loadCharactersFile(this.value)" />Javanese &nbsp;&nbsp;
                         <input type="radio" name="picker" value="0xa900-kayah_li.json" onclick="loadCharactersFile(this.value)" />Kayah Li &nbsp;&nbsp;
-                        <input type="radio" name="picker" value="0xaa80-tai_viet.json" onclick="loadCharactersFile(this.value)" />Tai Viet 
+                        <input type="radio" name="picker" value="0xaa80-tai_viet.json" onclick="loadCharactersFile(this.value);mgioScripts = ["Tavt"];mgioScriptProcess();" />Tai Viet 
         <br />
         <label for="style"><strong>Show as: </strong></label>
 	    <input type="radio" name="style" value="table" checked="checked" onclick="changeListStyle('table')" id="label-table" /><label for="style-table">Table</label>
