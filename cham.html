@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<!--
+	Minimaxing 3.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cham Unicode - Cham character picker (charPicker)</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<link rel="stylesheet" href="css/charpicker.css" />
+		<script src="js/characterPicker.js" type="text/javascript"></script>
+		<style>
+			@font-face {
+			    font-family: "Noto Sans Cham";
+			    src: url('fonts/NotoSansCham-Regular.woff2') format('woff2'),
+			         url('fonts/NotoSansCham-Regular.woff') format('woff'),
+			         url('fonts/NotoSansCham-Regular.ttf') format('truetype');
+			    font-style: normal;
+			    font-weight: normal;
+			}
+
+			@font-face {
+			    font-family: "Noto Sans Cham";
+			    src: url('fonts/NotoSansCham-Bold.woff2') format('woff2'),
+			         url('fonts/NotoSansCham-Bold.woff') format('woff'),
+			         url('fonts/NotoSansCham-Bold.ttf') format('truetype');
+			    font-style: normal;
+			    font-weight: bold;
+			}
+
+			*, body { font-synthesis: none; }
+			#buttons button, textarea#input { font-family: "Noto Sans Cham","Noto Sans","Ubuntu Condensed",sans-serif;}
+		</style>
+		<script>
+			$( document ).ready(function() {
+				loadCharactersFile("0xaa00-cham.json");
+			});
+		</script>
+		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/xregexp/2.0.0/xregexp-all-min.js"></script>
+		<script src="http://mgio-vic.appspot.com/js/jquery.mgio.scripts.latest.min.js"></script>  -->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+	</head>
+	<body id="body" onload="start();">
+	<!-- ********************************************************* -->
+		<div id="header-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="12u">
+						
+						<header id="header">
+							<h1><a href="#" id="logo">charPicker</a></h1>
+							<nav id="nav">
+								<a href="index.html">Homepage</a>
+								<a href="african.html">African</a>
+								<a href="seasian.html" class="current-page-item">South East Asian</a>
+								<a href="credits.html">Credits</a>
+							</nav>
+						</header>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="container">
+				<div class="row main-row">
+					<div class="12u">
+						
+						<section>
+							<h2>Cham character picker</h2>
+											
+        <p><!--<label for="picker"><strong>Scripts: </strong></label> 
+                        <input type="radio" name="picker" value="0xaa00-cham.json" onclick="loadCharactersFile(this.value);" />Cham &nbsp;&nbsp; -->
+        <label for="style"><strong>Show as: </strong></label>
+	    <input type="radio" name="style" value="table" checked="checked" onclick="changeListStyle('table')" id="label-table" /><label for="style-table">Table</label>
+	    <input type="radio" name="style" value="list" onclick="changeListStyle('list')" id="label-list"/><label for="label-list">List<label>
+    </p>
+
+		<div id="panel">
+		<textarea id="input" dir="auto" autofocus onkeyup="updateInputLength()" placeholder="Type here your message…"></textarea>
+<p><button id="clear" onclick="document.getElementById('input').value = '';">Clear</button>
+	<button id="tweet" onclick="document.location = 'https://twitter.com/?status='+ encodeURI(document.getElementById('input').value);">Tweet</button>
+	<button id="post">Post</button>
+	<button id="bCopy" onclick="window.prompt('Copy to clipboard: Ctrl+C, Enter', document.getElementById('input').value);">Copy</button> <!-- &nbsp;&nbsp;Input length: <span id="length"></span> <span id="value"></span> --> </p>
+
+	
+		
+	
+	<!-- <p>Input length: <span id="length"></span> <span id="value"></span></p> -->
+	</div>
+	
+	<div id="buttons">
+               
+	</div>
+
+
+
+
+
+
+						</section>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="8u">
+						
+						<section>
+							<h2>How about a truckload of links?</h2>
+							<div>
+								<div class="row">
+									<div class="3u">
+										<ul class="link-list">
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Suspendisse varius ipsum</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+										</ul>
+									</div>
+									<div class="3u">
+										<ul class="link-list">
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Vitae magna sed dolore</a></li>
+										</ul>
+									</div>
+									<div class="3u">
+										<ul class="link-list">
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Suspendisse varius ipsum</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+										</ul>
+									</div>
+									<div class="3u">
+										<ul class="link-list">
+											<li><a href="#">Quis accumsan lorem</a></li>
+											<li><a href="#">Sed neque nisi consequat</a></li>
+											<li><a href="#">Eget et amet consequat</a></li>
+											<li><a href="#">Dapibus sed mattis blandit</a></li>
+											<li><a href="#">Vitae magna sed dolore</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+					
+					</div>
+					<div class="4u">
+
+						<section>
+							<h2>Something of interest</h2>
+							<p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. 
+							Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet 
+							mollis justo facilisis quis. Sed sagittis mauris amet tellus gravida
+							lorem ipsum dolor sit amet consequat blandit.</p>
+							<footer class="controls">
+								<a href="#" class="button">Oh, please continue ....</a>
+							</footer>
+						</section>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="12u">
+
+						<div id="copyright">
+							&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a> | Images: <a href="http://fotogrph.com">fotogrph</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- ********************************************************* -->
+	</body>
+</html>
