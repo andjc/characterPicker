@@ -2,6 +2,42 @@
     {
         "content": [
             {
+                "cat1": "Punctuation", 
+                "cat2": "", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0xaa5c", 
+                "description": "", 
+                "title": "CHAM PUNCTUATION SPIRAL"
+            }, 
+            {
+                "cat1": "Punctuation", 
+                "cat2": "", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0xaa5d", 
+                "description": "", 
+                "title": "CHAM PUNCTUATION DANDA"
+            }, 
+            {
+                "cat1": "Punctuation", 
+                "cat2": "", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0xaa5e", 
+                "description": "", 
+                "title": "CHAM PUNCTUATION DOUBLE DANDA"
+            },
+            {
+                "cat1": "Punctuation", 
+                "cat2": "", 
+                "cat3": "", 
+                "cat4": "", 
+                "charcode": "0x0020", 
+                "description": "", 
+                "title": "SPACE"
+            },
+            {
                 "cat1": "Letter", 
                 "cat2": "Vowel", 
                 "cat3": "Independent", 
@@ -711,33 +747,6 @@
                 "charcode": "0xaa59", 
                 "description": "", 
                 "title": "CHAM DIGIT NINE"
-            }, 
-            {
-                "cat1": "Punctuation", 
-                "cat2": "", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0xaa5c", 
-                "description": "", 
-                "title": "CHAM PUNCTUATION SPIRAL"
-            }, 
-            {
-                "cat1": "Punctuation", 
-                "cat2": "", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0xaa5d", 
-                "description": "", 
-                "title": "CHAM PUNCTUATION DANDA"
-            }, 
-            {
-                "cat1": "Punctuation", 
-                "cat2": "", 
-                "cat3": "", 
-                "cat4": "", 
-                "charcode": "0xaa5e", 
-                "description": "", 
-                "title": "CHAM PUNCTUATION DOUBLE DANDA"
             }
         ], 
         "name": "Cham"
